@@ -6,9 +6,9 @@
 #include "Arduino.h"
 
 #ifdef ARDUINO_SAMD_VARIANT_COMPLIANCE
-    #define SERIAL SerialUSB
+    #define theSERIAL SerialUSB
 #else
-    #define SERIAL Serial
+    #define theSERIAL Serial
 #endif
 
 #ifdef DEBUG
